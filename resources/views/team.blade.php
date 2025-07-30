@@ -1,0 +1,349 @@
+ 
+ @extends('index')
+ @section('title', 'Team')
+ @section('content')
+     {{-- <header class="large-screens">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg">
+            <div class="collapse navbar-collapse justify-content-between">
+              <a class="navbar-brand" href="index.html">
+                <img class="logo" alt="logo" src="assets/media/logo.png" />
+              </a>
+
+              <ul class="navbar-nav mainmenu">
+                <li class="menu-item has-children">
+                  <a href="index.html" class="main-menu-item">Home</a>
+                </li>
+                <li class="menu-item has-children">
+                  <a href="javascript:void(0);" class="main-menu-item"
+                    >about<i class="fas fa-caret-down m-1"></i
+                  ></a>
+                  <ul class="submenu">
+                    <li><a href="team.html">Our Team </a></li>
+                    <li><a href="about.html">About us </a></li>
+                  </ul>
+                </li>
+                <li class="menu-item has-children">
+                  <a href="javascript:void(0);" class="main-menu-item"
+                    >Facities<i class="fas fa-caret-down m-1"></i
+                  ></a>
+                  <ul class="submenu">
+                    <li><a href="activities.html">Activities </a></li>
+                    <li><a href="arcadegames.html">Arcade games </a></li>
+                    <li><a href="equipment.html">Equipment</a></li>
+                    <li><a href="viprooms.html">VIP Room </a></li>
+                  </ul>
+                </li>
+                <li class="menu-item has-children">
+                  <a href="menu.html" class="main-menu-item">Menu </a>
+                </li>
+                <li class="menu-item has-children">
+                  <a href="contact.html" class="main-menu-item">Contact Us  </a>
+                </li>
+              </ul>
+              <ul class="navbar-nav mainmenu custom">
+                <li class="menu-item has-children">
+                  <a href="" class="main-menu-item">BOOK NOW</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <header class="small-screen">
+        <div class="container" id="small-screen-container">
+          <div class="mobile-menu">
+            <div>
+              <a class="navbar-brand" href="index.html"
+                ><img alt="" src="./assets/media/logo.png"
+              /></a>
+            </div>
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+          <div class="blur-overlay"></div>
+          <nav class="mobile-navar d-xl-none">
+            <ul>
+              <li class="has-children"><a href="index.html">Home</a></li>
+              <li class="has-children">
+                about <span class="icon-arrow"></span>
+                <ul class="children">
+                  <li><a href=" team.html">Our Team </a></li>
+                  <li><a href="about.html">About us </a></li>
+                </ul>
+              </li>
+              <li class="has-children">
+                Facities<span class="icon-arrow"></span>
+                <ul class="children">
+                  <li><a href="activities.html">Activities </a></li>
+                  <li><a href="arcadegames.html">Arcade games </a></li>
+                  <li><a href="equipment.html">Equipment </a></li>
+                  <li><a href="viprooms.html">VIP Room </a></li>
+                </ul>
+              </li>
+              <li class="has-children">
+                <a href="menu.html">Menu </a>
+              </li>
+              <li class="has-children">
+                <a href="contact.html">Contact Us  </a>
+              </li>
+              <li class="has-children">
+                <a href=" ">BOOK NOW  </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header> --}}
+        <!-- Header Area end -->
+
+        <!-- Page Start Banner Area Start -->
+        <!-- <div class="page-title-banner p-64">
+            <div class="container">
+                <div class="content">
+                    <a class="mb-16 cus-btn dark" href="index.html"><i class="fas fa-chevron-left"></i>Back to Home</a>
+                    <h1 class="mb-16">Our Team</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur. Adipiscing elementum <br> condimentum tellus quis eros ridiculus quisque. Viverra non etiam in.</p>
+                </div>
+            </div>
+        </div> -->
+        <!-- Page Start Banner Area End -->
+
+        <!-- Main Content Start -->
+        <div class="page-content" id="team_page">
+
+            <!-- Team Area Start -->
+            <section class="p-40">
+                <div class="container">
+                    <div class="row" style="justify-content: space-around;">
+                        <!-- <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="team-card mb-30 bg-red">
+                                <div class="img-block">
+                                    <img src="assets/media/gamers/t-1.JPG" alt="">
+                                    <div class="overlay"></div>
+                                    <div class="text-block">
+                                        <h4 class="mb-4p">name</h4>
+                                        <h6 class="light-gray mb-16">position</h6>
+                                    </div>
+                                </div>
+                                <ul class="unstyled social-icons">
+                                    <li><a href=""><img src="assets/media/icons/Facebook.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/Twitter.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/Instagram.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/SnapChat.png" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div> -->
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="team-card mb-30 bg-purple">
+                                <div class="img-block">
+                                    <img src="assets/media/gamers/t-2.JPG" alt="">
+                                    <div class="overlay"></div>
+                                    <div class="text-block">
+                                        <h4 class="mb-4p">Omar</h4>
+                                        <h6 class="light-gray mb-16">position</h6>
+                                    </div>
+                                </div>
+                                <ul class="unstyled social-icons">
+                       
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="team-card mb-30 bg-red">
+                                <div class="img-block">
+                                    <img src="assets/media/gamers/t-3.JPG" alt="">
+                                    <div class="overlay"></div>
+                                    <div class="text-block">
+                                        <h4 class="mb-4p">Yaren</h4>
+                                        <h6 class="light-gray mb-16">position</h6>
+                                    </div>
+                                </div>
+                                <ul class="unstyled social-icons">
+                                    <!-- <li><a href=""><img src="assets/media/icons/Facebook.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/Twitter.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/Instagram.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/SnapChat.png" alt=""></a></li> -->
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="team-card mb-30 bg-purple">
+                                <div class="img-block">
+                                    <img src="assets/media/gamers/g-4.png" alt="">
+                                    <div class="overlay"></div>
+                                    <div class="text-block">
+                                        <h4 class="mb-4p">name</h4>
+                                        <h6 class="light-gray mb-16">position</h6>
+                                    </div>
+                                </div>
+                                <ul class="unstyled social-icons">
+                                    <li><a href=""><img src="assets/media/icons/Facebook.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/Twitter.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/Instagram.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/SnapChat.png" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div> -->
+                        <!-- <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="team-card mb-30 bg-purple">
+                                <div class="img-block">
+                                    <img src="assets/media/gamers/g-5.png" alt="">
+                                    <div class="overlay"></div>
+                                    <div class="text-block">
+                                        <h4 class="mb-4p">Ava Rodriguez</h4>
+                                        <h6 class="light-gray mb-16">Store Manager</h6>
+                                    </div>
+                                </div>
+                                <ul class="unstyled social-icons">
+                                    <li><a href=""><img src="assets/media/icons/Facebook.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/Twitter.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/Instagram.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/SnapChat.png" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="team-card mb-30 bg-red">
+                                <div class="img-block">
+                                    <img src="assets/media/gamers/g-6.png" alt="">
+                                    <div class="overlay"></div>
+                                    <div class="text-block">
+                                        <h4 class="mb-4p">Michael Brown</h4>
+                                        <h6 class="light-gray mb-16">Store Manager</h6>
+                                    </div>
+                                </div>
+                                <ul class="unstyled social-icons">
+                                    <li><a href=""><img src="assets/media/icons/Facebook.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/Twitter.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/Instagram.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/SnapChat.png" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="team-card mb-30 bg-purple">
+                                <div class="img-block">
+                                    <img src="assets/media/gamers/g-7.png" alt="">
+                                    <div class="overlay"></div>
+                                    <div class="text-block">
+                                        <h4 class="mb-4p">William Wilson</h4>
+                                        <h6 class="light-gray mb-16">Store Manager</h6>
+                                    </div>
+                                </div>
+                                <ul class="unstyled social-icons">
+                                    <li><a href=""><img src="assets/media/icons/Facebook.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/Twitter.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/Instagram.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/SnapChat.png" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="team-card mb-30 bg-red">
+                                <div class="img-block">
+                                    <img src="assets/media/gamers/g-8.png" alt="">
+                                    <div class="overlay"></div>
+                                    <div class="text-block">
+                                        <h4 class="mb-4p">James Wilson</h4>
+                                        <h6 class="light-gray mb-16">Store Manager</h6>
+                                    </div>
+                                </div>
+                                <ul class="unstyled social-icons">
+                                    <li><a href=""><img src="assets/media/icons/Facebook.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/Twitter.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/Instagram.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/SnapChat.png" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="team-card mb-30 bg-red">
+                                <div class="img-block">
+                                    <img src="assets/media/gamers/g-9.png" alt="">
+                                    <div class="overlay"></div>
+                                    <div class="text-block">
+                                        <h4 class="mb-4p">Michael Brown</h4>
+                                        <h6 class="light-gray mb-16">Store Manager</h6>
+                                    </div>
+                                </div>
+                                <ul class="unstyled social-icons">
+                                    <li><a href=""><img src="assets/media/icons/Facebook.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/Twitter.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/Instagram.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/SnapChat.png" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="team-card mb-30 bg-purple">
+                                <div class="img-block">
+                                    <img src="assets/media/gamers/g-10.png" alt="">
+                                    <div class="overlay"></div>
+                                    <div class="text-block">
+                                        <h4 class="mb-4p">Ava Rodriguez</h4>
+                                        <h6 class="light-gray mb-16">Store Manager</h6>
+                                    </div>
+                                </div>
+                                <ul class="unstyled social-icons">
+                                    <li><a href=""><img src="assets/media/icons/Facebook.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/Twitter.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/Instagram.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/SnapChat.png" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="team-card mb-30 bg-red">
+                                <div class="img-block">
+                                    <img src="assets/media/gamers/g-11.png" alt="">
+                                    <div class="overlay"></div>
+                                    <div class="text-block">
+                                        <h4 class="mb-4p">James Wilson</h4>
+                                        <h6 class="light-gray mb-16">Store Manager</h6>
+                                    </div>
+                                </div>
+                                <ul class="unstyled social-icons">
+                                    <li><a href=""><img src="assets/media/icons/Facebook.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/Twitter.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/Instagram.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/SnapChat.png" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="team-card mb-30 bg-purple">
+                                <div class="img-block">
+                                    <img src="assets/media/gamers/g-4.png" alt="">
+                                    <div class="overlay"></div>
+                                    <div class="text-block">
+                                        <h4 class="mb-4p">William Wilson</h4>
+                                        <h6 class="light-gray mb-16">Store Manager</h6>
+                                    </div>
+                                </div>
+                                <ul class="unstyled social-icons">
+                                    <li><a href=""><img src="assets/media/icons/Facebook.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/Twitter.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/Instagram.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/SnapChat.png" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div> -->
+                        <!-- <ul class="pagination">
+                            <li class="page-item"><a href="" class="page-link arrow" aria-label="next"><i class="fas fa-chevron-left"></i></a></li> 
+                            <li class="page-item"><a class="page-link current" href="">1</a></li>
+                            <li class="page-item"><a class="page-link" href="">2</a></li>
+                            <li class="page-item"><a class="page-link" href="">3</a></li>
+                            <li class="page-item"><a href="" class="page-link arrow" aria-label="next"><i class="fas fa-chevron-right"></i></a></li>
+                        </ul> -->
+                    </div>
+                </div>
+            </section>
+            <!-- Team Area End -->
+
+        </div>
+
+        <!-- Main Content End -->
+
+ @endsection
+ 
