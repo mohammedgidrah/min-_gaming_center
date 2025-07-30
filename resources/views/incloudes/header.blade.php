@@ -2,13 +2,13 @@
         <div class="container">
           <nav class="navbar navbar-expand-lg">
             <div class="collapse navbar-collapse justify-content-between">
-              <a class="navbar-brand" href="index.html">
+              <a class="navbar-brand" href={{ url('/') }}>
                 <img class="logo" alt="logo" src="assets/media/logo.png" />
               </a>
 
               <ul class="navbar-nav mainmenu">
                 <li class="menu-item has-children">
-                  <a href={{ url('home') }} class="main-menu-item">Home</a>
+                  <a href={{ url('/') }} class="main-menu-item">Home</a>
                 </li>
                 <li class="menu-item has-children">
                   <a href="javascript:void(0);" class="main-menu-item"
@@ -39,7 +39,7 @@
               </ul>
               <ul class="navbar-nav mainmenu custom">
                 <li class="menu-item has-children">
-                  <a href="" class="main-menu-item">BOOK NOW</a>
+                  <a href="tel:+962771999994" class="main-menu-item">BOOK NOW</a>
                 </li>
               </ul>
             </div>
@@ -50,7 +50,7 @@
         <div class="container" id="small-screen-container">
           <div class="mobile-menu">
             <div>
-              <a class="navbar-brand" href="index.html"
+              <a class="navbar-brand" href={{ url('/') }}
                 ><img alt="" src="./assets/media/logo.png"
               /></a>
             </div>
@@ -61,31 +61,31 @@
           <div class="blur-overlay"></div>
           <nav class="mobile-navar d-xl-none">
             <ul>
-              <li class="has-children"><a href="index.html">Home</a></li>
+              <li class="has-children"><a href={{ url('/') }}>Home</a></li>
               <li class="has-children">
                 about <span class="icon-arrow"></span>
                 <ul class="children">
-                  <li><a href=" team.html">Our Team </a></li>
-                  <li><a href="about.html">About us </a></li>
+                  <li><a href={{url('team')}}>Our Team </a></li>
+                  <li><a href={{url('about')}}>About us </a></li>
                 </ul>
               </li>
               <li class="has-children">
                 Facities<span class="icon-arrow"></span>
                 <ul class="children">
-                  <li><a href="activities.html">Activities </a></li>
-                  <li><a href="arcadegames.html">Arcade games </a></li>
-                  <li><a href="equipment.html">Equipment </a></li>
-                  <li><a href="viprooms.html">VIP Room </a></li>
+                  <li><a href={{url('activities')}}>Activities </a></li>
+                  <li><a href={{url('arcadegames')}}>Arcade games </a></li>
+                  <li><a href={{url('equipment')}}>Equipment </a></li>
+                  <li><a href={{ url('viprooms') }}>VIP Room </a></li>
                 </ul>
               </li>
               <li class="has-children">
-                <a href="menu.html">Menu </a>
+                <a href={{url('menu')}}>Menu </a>
               </li>
               <li class="has-children">
-                <a href="contact.html">Contact Us</a>
+                <a href={{url('contact')}}>Contact Us</a>
               </li>
               <li class="has-children">
-                <a href=" ">BOOK NOW </a>
+                <a href="tel:+962771999994">BOOK NOW </a>
               </li>
             </ul>
           </nav>

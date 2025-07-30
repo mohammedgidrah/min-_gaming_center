@@ -9,7 +9,7 @@
       <!-- Text Content -->
       <div class="col-lg-6 col-md-12 mb-40 mb-lg-0">
         <div class="content">
-          <a class="mb-16 cus-btn dark" href="index.html">
+          <a class="mb-16 cus-btn dark" href={{url('/')}}>
             <i class="fas fa-chevron-left"></i>Back to Home
           </a>
           <h1 class="mb-16">About Us</h1>

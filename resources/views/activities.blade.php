@@ -4,13 +4,7 @@
 
       <!-- Page Start Banner Area Start -->
       <div class="page-title-banner p-64" id="activities-padding">
-        <!-- <div class="container">
-        <div class="content">
-          <a class="mb-16 cus-btn dark" href="index.html"><i class="fas fa-chevron-left"></i>Back to Home</a>
-          <h1 class="mb-16">name</h1>
-          <p>desc</p>
-        </div>
-      </div> -->
+ 
       </div>
       <!-- Page Start Banner Area End -->
 
@@ -119,7 +113,7 @@
                       />
                       <div class="text-block">
                         <h4 class="mb-24">
-                          <a href="tournment-detail.html">
+                          <a  >
                            name</a
                           >
                         </h4>

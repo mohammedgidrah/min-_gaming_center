@@ -14,7 +14,7 @@ use App\Http\Controllers\ContactController;
 |
 */
 
-Route::get('home', function () {
+Route::get('/', function () {
     return view('minpage');
 });
 Route::get("viprooms",function(){

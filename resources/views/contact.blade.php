@@ -1,8 +1,11 @@
- @extends('index')
+@extends('index')
  @section('title', 'Contact')
  @section('content')
 
- 
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
 
         <!-- Main Content Start -->
         <div class="page-content" id="contact_page">
@@ -13,20 +16,20 @@
                     <h3 class="mb-32">Let's Get in Touch</h3>
                     <div class="row pb-40">
                         <div class="col-lg-4">
-                            <div class="link-block mb-32 mb-lg-0">
-                                <i class="fal fa-map-marker-alt"></i>
-                                <h6>123 Main Street, Anytown, USA.</h6>
-                            </div>
+                            <a href="https://www.google.com/maps/search/?api=1&query=29.53129093840129,35.00163015142834" target="_blank" class="link-block mb-32 mb-lg-0">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <h6>Our Location</h6>
+                            </a>
                          </div>
                         <div class="col-lg-4">
-                            <a href="tel:0123456789" class="link-block mb-32 mb-lg-0">
-                                <i class="fal fa-phone-alt"></i>
+                            <a href="tel:+962771999994" class="link-block mb-32 mb-lg-0">
+                                <i class="fas fa-phone-alt"></i>
                                 <span>+962771999994</span>
                             </a>
                          </div>
                         <div class="col-lg-4">
-                            <a href="mailto:info@example.com" class="link-block mb-32 mb-lg-0">
-                                <i class="fal fa-envelope"></i>
+                            <a href="mailto:INFO@MINESGAMINGCENTER.COM" class="link-block mb-32 mb-lg-0">
+                                <i class="fas fa-envelope"></i>
                                 <span>INFO@MINESGAMINGCENTER.COM</span>
                             </a>
                          </div>
@@ -37,7 +40,7 @@
             <h3 class="mb-32">Contact Form</h3>
 
             @if(session('success'))
-                <div class="alert alert-success text-center mb-4">
+                <div class="alert alert-success text-center mb-4" style="background: #F7D955;color:#000000">
                     {{ session('success') }}
                 </div>
             @endif
