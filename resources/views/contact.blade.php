@@ -18,7 +18,7 @@
                         <div class="col-lg-4">
                             <a href="https://www.google.com/maps/search/?api=1&query=29.53129093840129,35.00163015142834" target="_blank" class="link-block mb-32 mb-lg-0">
                                 <i class="fas fa-map-marker-alt"></i>
-                                <h6>Our Location</h6>
+                                <h6 id="map">Jordan - Aqaba King Hussein Street 77110 - P.Box 1027 Aqaba</h6>
                             </a>
                          </div>
                         <div class="col-lg-4">

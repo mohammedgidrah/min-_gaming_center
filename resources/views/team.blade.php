@@ -36,7 +36,7 @@
                                     <div class="overlay"></div>
                                     <div class="text-block">
                                         <h4 class="mb-4p">Omar</h4>
-                                        <h6 class="light-gray mb-16">position</h6>
+                                        <h6 class="light-gray mb-16">Zeus</h6>
                                     </div>
                                 </div>
                                 <ul class="unstyled social-icons">
@@ -51,7 +51,7 @@
                                     <div class="overlay"></div>
                                     <div class="text-block">
                                         <h4 class="mb-4p">Yaren</h4>
-                                        <h6 class="light-gray mb-16">position</h6>
+                                        <h6 class="light-gray mb-16">Dead Shhot</h6>
                                     </div>
                                 </div>
                                 <ul class="unstyled social-icons">

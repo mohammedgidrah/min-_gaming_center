@@ -9,17 +9,15 @@
       <!-- Slide 1: Retro Arcade -->
       <div class="slide-2">
         <div class="container">
-          <div class="row align-items-center">
-            <div class="col-12">
+          <div class="row align-items-center ju">
+            <div class="col-11">
               <div class="text-center">
                 <img
-                  src="https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&h=600&fit=crop&crop=center"
+                  src="assets/media/viprooms/vip-img-1.jpg"
                   alt="Retro Arcade"
                   class="img-fluid game-image slider-img"
                 />
-                <div class="col-12 text-center pt-3">
-                  <h4>Retro Arcade</h4>
-                </div>
+   
               </div>
             </div>
           </div>
@@ -33,13 +31,11 @@
             <div class="col-12">
               <div class="text-center">
                 <img
-                  src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&h=600&fit=crop"
+                 src="assets/media/viprooms/vip-img-2.jpg"
                   alt="Modern Gaming"
                   class="img-fluid game-image slider-img"
                 />
-                <div class="col-12 text-center pt-3">
-                  <h4>Modern Gaming</h4>
-                </div>
+   
               </div>
             </div>
           </div>
@@ -47,7 +43,7 @@
       </div>
 
       <!-- Slide 3: Racing Zone -->
-      <div class="slide-2">
+      {{-- <div class="slide-2">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-12">
@@ -64,10 +60,10 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> --}}
 
       <!-- Slide 4: Prize Corner -->
-      <div class="slide-2">
+      {{-- <div class="slide-2">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-12">
@@ -84,7 +80,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> --}}
     </div>
 
     <!-- Controls on sides -->
@@ -97,11 +93,11 @@
   </div>
 
   <!-- Indicators at bottom -->
-  <div class="slider-indicators">
+  <div class="slider-indicators" style="padding-top: 20px">
     <span class="indicator active" onclick="currentSlide(1)"></span>
     <span class="indicator" onclick="currentSlide(2)"></span>
-    <span class="indicator" onclick="currentSlide(3)"></span>
-    <span class="indicator" onclick="currentSlide(4)"></span>
+    {{-- <span class="indicator" onclick="currentSlide(3)"></span>
+    <span class="indicator" onclick="currentSlide(4)"></span> --}}
   </div>
 </div>
 
@@ -196,7 +192,7 @@
   showSlide(0);
   
   // Optional: Auto slide
-  setInterval(() => changeSlide(1), 5000);
+  // setInterval(() => changeSlide(1), 5000);
 </script>
 
  

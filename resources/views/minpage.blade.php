@@ -1,14 +1,13 @@
    @extends('index')
    @section('title', 'Home')
    @section('content')
-       <button id="hide-nav-btn" class="hide-nav-btn" title="Hide Navigation">
-        <i class="fas fa-eye-slash"></i>
-      </button>
+ 
+ 
        <!-- Hero Banner start -->
        <div class="hero-banner-1">
            <div class="video-background">
                <video autoplay muted loop playsinline>
-                   <source src="assets/media/video/movie-video.m4" type="video/mp4" />
+                   <source src="assets/media/video/video.mp4" type="video/mp4" />
                    <!-- Fallback image if video doesn't load -->
                    <img src="assets/media/banner/hero-banner.png" alt="Fallback banner image" />
                </video>
@@ -35,7 +34,7 @@
                            <div class="feature-card mb-24">
                                <div class="content">
                                    <img class="mb-16" src="assets/media/icons/fi-1.png" alt="" />
-                                   <h4 class="mb-8">Immersive Gameplay</h4>
+                                   <h4 class="mb-8">PlayStation</h4>
                                    <p class="medium-gray">
                                        Lorem ipsum dolor sit amet consectetur. In blandit sit non
                                        facilisis semper amet. Aliquam lacus sed aenean
@@ -49,7 +48,7 @@
                            <div class="feature-card mb-24">
                                <div class="content">
                                    <img class="mb-16" src="assets/media/icons/fi-2.png" alt="" />
-                                   <h4 class="mb-8">Engaging Storylines</h4>
+                                   <h4 class="mb-8">VIP Rooms</h4>
                                    <p class="medium-gray">
                                        Lorem ipsum dolor sit amet consectetur. In blandit sit non
                                        facilisis semper amet. Aliquam lacus sed aenean
@@ -63,7 +62,7 @@
                            <div class="feature-card mb-24">
                                <div class="content">
                                    <img class="mb-16" src="assets/media/icons/fi-3.png" alt="" />
-                                   <h4 class="mb-8">Replay Value</h4>
+                                   <h4 class="mb-8">Pc's</h4>
                                    <p class="medium-gray">
                                        Lorem ipsum dolor sit amet consectetur. In blandit sit non
                                        facilisis semper amet. Aliquam lacus sed aenean
@@ -77,7 +76,7 @@
                            <div class="feature-card">
                                <div class="content">
                                    <img class="mb-16" src="assets/media/icons/fi-4.png" alt="" />
-                                   <h4 class="mb-8">Responsive Controls</h4>
+                                   <h4 class="mb-8">barista</h4>
                                    <p class="medium-gray">
                                        Lorem ipsum dolor sit amet consectetur. In blandit sit non
                                        facilisis semper amet. Aliquam lacus sed aenean
