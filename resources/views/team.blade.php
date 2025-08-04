@@ -62,6 +62,42 @@
                                 </ul>
                             </div>
                         </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="team-card mb-30 bg-red">
+                                <div class="img-block">
+                                    <img style="width: 1000px;height: 363px;" src="assets/media/placeholder.png" alt="">
+                                    <div class="overlay"></div>
+                                    <div class="text-block">
+                                        <h4 class="mb-4p">name</h4>
+                                        <h6 class="light-gray mb-16">nickname </h6>
+                                    </div>
+                                </div>
+                                <ul class="unstyled social-icons">
+                                    <!-- <li><a href=""><img src="assets/media/icons/Facebook.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/Twitter.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/Instagram.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/SnapChat.png" alt=""></a></li> -->
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="team-card mb-30 bg-red">
+                                <div class="img-block">
+                                    <img style="width: 1000px;height: 363px;" src="assets/media/placeholder.png" alt="">
+                                    <div class="overlay"></div>
+                                    <div class="text-block">
+                                        <h4 class="mb-4p">name</h4>
+                                        <h6 class="light-gray mb-16">nickname </h6>
+                                    </div>
+                                </div>
+                                <ul class="unstyled social-icons">
+                                    <!-- <li><a href=""><img src="assets/media/icons/Facebook.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/Twitter.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/Instagram.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/media/icons/SnapChat.png" alt=""></a></li> -->
+                                </ul>
+                            </div>
+                        </div>
                         <!-- <div class="col-xl-3 col-lg-4 col-sm-6">
                             <div class="team-card mb-30 bg-purple">
                                 <div class="img-block">

@@ -20,15 +20,12 @@
                             <div class="category-block">
                                 <img src="assets/media/shapes/blog-vector.png" alt=""
                                     style="padding-bottom: 2px" />
-                                <h5 class="c-title">name</h5>
+                                <h5 class="c-title">Keyboard</h5>
                             </div>
                             <div class="img-block" id="img">
                                 <img src="assets/media/equpments/keybord.jpg" alt="" />
                                 <div class="overlay"></div>
-                                <div class="text-block">
-                                    <!-- <h6 class="  mb-16"> name</h6> -->
-                                    <h5 class="title">desc</h5>
-                                </div>
+                        
                             </div>
                         </a>
                     </div>
@@ -37,15 +34,12 @@
                             <div class="category-block">
                                 <img src="assets/media/shapes/blog-vector.png" alt=""
                                     style="padding-bottom: 2px" />
-                                <h5 class="c-title">name</h5>
+                                <h5 class="c-title">pc</h5>
                             </div>
                             <div class="img-block" id="img">
                                 <img src="assets/media/equpments/pccace.jpg" alt="" />
                                 <div class="overlay"></div>
-                                <div class="text-block">
-                                    <!-- <h6 class="  mb-16"> name</h6> -->
-                                    <h5 class="title">desc</h5>
-                                </div>
+                           
                             </div>
                         </a>
                     </div>
@@ -54,15 +48,12 @@
                             <div class="category-block">
                                 <img src="assets/media/shapes/blog-vector.png" alt=""
                                     style="padding-bottom: 2px" />
-                                <h5 class="c-title">name</h5>
+                                <h5 class="c-title">controller</h5>
                             </div>
                             <div class="img-block" id="img">
                                 <img src="assets/media/equpments/playstation.jpg" alt="" />
                                 <div class="overlay"></div>
-                                <div class="text-block">
-                                    <!-- <h6 class="  mb-16"> name</h6> -->
-                                    <h5 class="title">desc</h5>
-                                </div>
+                          
                             </div>
                         </a>
                     </div>
@@ -71,15 +62,12 @@
                             <div class="category-block">
                                 <img src="assets/media/shapes/blog-vector.png" alt=""
                                     style="padding-bottom: 2px" />
-                                <h5 class="c-title">name</h5>
+                                <h5 class="c-title">racing wheel</h5>
                             </div>
                             <div class="img-block" id="img">
                                 <img src="assets/media/equpments/steringwhell.jpg" alt="" />
                                 <div class="overlay"></div>
-                                <div class="text-block">
-                                    <!-- <h6 class="  mb-16"> name</h6> -->
-                                    <h5 class="title">desc</h5>
-                                </div>
+                        
                             </div>
                         </a>
                     </div>
