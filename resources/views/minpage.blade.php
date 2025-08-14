@@ -176,9 +176,9 @@
                            <div class="achievement-card mb-24 counter-count">
                                <div class="content text-center">
                                    <h2 class="color-primary mb-16">
-                                       <span class="count">5</span><span>K</span>
+                                       <span class="count">965</span> 
                                    </h2>
-                                   <h4>name</h4>
+                                   <h4>Active users</h4>
                                    <img src="assets/media/shapes/s-1.png" alt="" class="shape" />
                                </div>
                            </div>
@@ -187,9 +187,9 @@
                            <div class="achievement-card mb-24 counter-count">
                                <div class="content text-center">
                                    <h2 class="color-primary mb-16">
-                                       <span class="count">10</span><span>K</span>
+                                       <span class="count">390</span> 
                                    </h2>
-                                   <h4>name</h4>
+                                   <h4>New users</h4>
                                    <img src="assets/media/shapes/s-1.png" alt="" class="shape" />
                                </div>
                            </div>
@@ -198,9 +198,9 @@
                            <div class="achievement-card mb-24 counter-count">
                                <div class="content text-center">
                                    <h2 class="color-primary mb-16">
-                                       <span class="count">90</span><span>%</span>
+                                       <span class="count">2890</span> 
                                    </h2>
-                                   <h4>name</h4>
+                                   <h4 style="font-size: 25px">Number of visitors in 2025</h4>
                                    <img src="assets/media/shapes/s-1.png" alt="" class="shape" />
                                </div>
                            </div>
@@ -209,9 +209,9 @@
                            <div class="achievement-card counter-count">
                                <div class="content text-center">
                                    <h2 class="color-primary mb-16">
-                                       <span class="count">20</span>
+                                       <span class="count">1200</span> 
                                    </h2>
-                                   <h4>name</h4>
+                                   <h4>Winning ratio</h4>
                                    <img src="assets/media/shapes/s-1.png" alt="" class="shape" />
                                </div>
                            </div>
@@ -222,21 +222,20 @@
            <section class="p-40">
                <div class="container">
                    <div class="heading">
-                       <h2>most favorite games</h2>
+                       <h2>Most Favorite Games</h2>
                    </div>
                    <div class="row">
                        <div class="col-lg-4 col-md-6">
                            <a   class="blog-card mb-30 mb-lg-0">
                                <div class="category-block">
                                    <img src="assets/media/shapes/blog-vector.png" alt="" />
-                                   <h5 class="c-title">name</h5>
+                                   <h5 class="c-title">FiveM</h5>
                                </div>
                                <div class="img-block">
-                                   <img src="assets/media/blogs/b-1.png" alt="" />
+                                   <img src="assets/media/blogs/fivem.jpeg" alt="" />
                                    <div class="overlay"></div>
                                    <div class="text-block">
-                                       <h6 class="mb-16">Aug 10, 2023</h6>
-                                       <h5 class="title">desc</h5>
+                            
                                    </div>
                                </div>
                            </a>
@@ -245,14 +244,13 @@
                            <a   class="blog-card mb-30 mb-lg-0">
                                <div class="category-block">
                                    <img src="assets/media/shapes/blog-vector.png" alt="" />
-                                   <h5 class="c-title">name</h5>
+                                   <h5 class="c-title">Forza Horizon 5</h5>
                                </div>
                                <div class="img-block">
-                                   <img src="assets/media/blogs/b-2.png" alt="" />
+                                   <img src="assets/media/blogs/Forza Horizon 5.jpeg" alt="" />
                                    <div class="overlay"></div>
                                    <div class="text-block">
-                                       <h6 class="mb-16">Aug 12, 2023</h6>
-                                       <h5 class="title">desc</h5>
+                                  
                                    </div>
                                </div>
                            </a>
@@ -261,14 +259,13 @@
                            <a   class="blog-card">
                                <div class="category-block">
                                    <img src="assets/media/shapes/blog-vector.png" alt="" />
-                                   <h5 class="c-title">name</h5>
+                                   <h5 class="c-title">Fortnite</h5>
                                </div>
                                <div class="img-block">
-                                   <img src="assets/media/blogs/b-3.png" alt="" />
+                                   <img src="assets/media/blogs/fortnite.jpeg" alt="" />
                                    <div class="overlay"></div>
                                    <div class="text-block">
-                                       <h6 class="mb-16">Aug 13, 2023</h6>
-                                       <h5 class="title">desc</h5>
+                                     
                                    </div>
                                </div>
                            </a>
@@ -278,3 +275,52 @@
            </section>
        </div>
    @endsection
+<style>
+     .blog-card {
+        display: block;
+         border-radius: 10px;
+         height: 100%;
+         transition: transform 0.3s ease;
+    }
+
+    .blog-card:hover {
+        transform: translateY(-5px);
+    }
+
+    /* Make the image block have a fixed aspect ratio */
+    .img-block {
+        position: relative;
+        width: 100%;
+        aspect-ratio: 16 / 9; /* Same height for all */
+        overflow: hidden;
+    }
+
+    .img-block img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    /* Overlay styling */
+    .overlay {
+        position: absolute;
+        inset: 0;
+         opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .blog-card:hover .overlay {
+        opacity: 1;
+    }
+
+    /* Category block */
+ 
+
+    /* Responsive tweaks */
+    @media (max-width: 767px) {
+        .p-40 {
+            padding: 20px;
+        }
+    }
+</style>
