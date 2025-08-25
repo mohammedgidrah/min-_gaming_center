@@ -36,9 +36,7 @@
                                    <img class="mb-16" src="assets/media/icons/fi-1.png" alt="" />
                                    <h4 class="mb-8">PlayStation</h4>
                                    <p class="medium-gray">
-                                       Lorem ipsum dolor sit amet consectetur. In blandit sit non
-                                       facilisis semper amet. Aliquam lacus sed aenean
-                                       consectetur.
+                                    PlayStation Normal 4  and 2 VIP
                                    </p>
                                    <img src="assets/media/shapes/s-1.png" alt="" class="shape" />
                                </div>
@@ -64,9 +62,7 @@
                                    <img class="mb-16" src="assets/media/icons/fi-3.png" alt="" />
                                    <h4 class="mb-8">Pc's</h4>
                                    <p class="medium-gray">
-                                       Lorem ipsum dolor sit amet consectetur. In blandit sit non
-                                       facilisis semper amet. Aliquam lacus sed aenean
-                                       consectetur.
+                                    25 Pc's and 5 VIP
                                    </p>
                                    <img src="assets/media/shapes/s-1.png" alt="" class="shape" />
                                </div>
