@@ -11,11 +11,6 @@
         }
 
 
-
-
-
-
-
         /* Category Navigation */
         .category-nav {
             display: flex;
@@ -237,9 +232,9 @@
 
         /* Animation for moving sections to top */
     </style>
-    </head>
+ 
 
-    <body>
+ 
 
 
 
@@ -372,120 +367,7 @@
 
 </div>
 
-            <!-- PC Gaming Section -->
-            {{-- <div class="category-section" id="pc-section" data-category="pc">
-                <h2 class="category-title">💻 PC Gaming</h2>
-                <div class="pricing-grid">
-                    <div class="pricing-card">
-                        <span class="card-icon">🕐</span>
-                        <h3 class="card-title">1 Hour</h3>
-                        <div class="card-price">1.5 JD</div>
-
-                    </div>
-
-                    <div class="pricing-card">
-                        <span class="card-icon">🕒</span>
-                        <h3 class="card-title">3 Hours</h3>
-                        <div class="card-price">3 JD</div>
-
-                    </div>
-
-                    <div class="pricing-card  ">
-                        <span class="card-icon">🕖</span>
-                        <h3 class="card-title">7 Hours</h3>
-                        <div class="card-price">5 JD</div>
-
-                    </div>
-
-                    <div class="pricing-card">
-                        <span class="card-icon">🕙</span>
-                        <h3 class="card-title">10 Hours</h3>
-                        <div class="card-price">7 JD</div>
-
-                    </div>
-
-                    <div class="pricing-card">
-                        <span class="card-icon">🌟</span>
-                        <h3 class="card-title">20 Hours</h3>
-                        <div class="card-price">11 JD</div>
-
-                    </div>
-
-                    <div class="pricing-card extra-controller">
-                        <span class="card-icon">🎮</span>
-                        <h3 class="card-title">Extra Controller</h3>
-                        <div class="card-price">2 JD</div>
-
-                    </div>
-                </div>
-            </div> --}}
-
-            <!-- PlayStation Gaming Section -->
-            {{-- <div class="category-section" id="playstation-section" data-category="playstation">
-                <h2 class="category-title"><i class="fas fa-crown"></i> VIP </h2>
-                <div class="pricing-grid">
-                    <div class="pricing-card">
-                        <span class="card-icon">🕐</span>
-                        <h3 class="card-title">1 Hour</h3>
-                        <div class="card-price">2 JD</div>
-
-                    </div>
-
-                    <div class="pricing-card">
-                        <span class="card-icon">🕒</span>
-                        <h3 class="card-title">3 Hours</h3>
-                        <div class="card-price">4 JD</div>
-
-                    </div>
-
-                    <div class="pricing-card  ">
-                        <span class="card-icon">🕔</span>
-                        <h3 class="card-title">5 Hours</h3>
-                        <div class="card-price">5 JD</div>
-
-                    </div>
-
-                    <div class="pricing-card">
-                        <span class="card-icon">🕙</span>
-                        <h3 class="card-title">10 Hours</h3>
-                        <div class="card-price">8 JD</div>
-
-                    </div>
-
-                    <div class="pricing-card">
-                        <span class="card-icon">🌟</span>
-                        <h3 class="card-title">20 Hours</h3>
-                        <div class="card-price">14 JD</div>
-
-                    </div>
-
-
-                </div>
-            </div> --}}
-
-            <!-- Steering Wheel Gaming Section -->
-            {{-- <div class="category-section" id="racing-simulator-section">
-                <h2 class="category-title">🏎️  steering wheel</h2>
-                <div class="pricing-grid">
-                    <div class="pricing-card">
-                        <span class="card-icon">🕧</span>
-                        <h3 class="card-title">30 min</h3>
-                        <div class="card-price">3 JD</div>
-                   
-                    </div>
-
-                    <div class="pricing-card">
-                        <span class="card-icon">🕐</span>
-                        <h3 class="card-title">1 Hours</h3>
-                        <div class="card-price">5 JD</div>
-                   
-                    </div>
-
-                
-
-              
-                </div>
-            </div> --}}
+ 
 
             {{-- <div class="services-section">
             <h2 class="services-title">Additional Services</h2>
