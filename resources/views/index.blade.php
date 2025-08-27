@@ -50,7 +50,7 @@
 
   <body>
     <!-- Preloader-->
-    <div id="preloader">
+    {{-- <div id="preloader">
       <div class="pyramid-loader">
         <div class="wrapper">
           <span class="side side1"></span>
@@ -60,7 +60,7 @@
           <span class="shadow"></span>
         </div>
       </div>
-    </div>
+    </div> --}}
     <!-- Back To Top Start -->
     <a href="#main-wrapper" id="backto-top" class="back-to-top"
       ><i class="fas fa-angle-up"></i

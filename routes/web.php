@@ -41,4 +41,7 @@ Route::get("activities",function(){
 Route::get("about",function(){
     return view("about");
 });
+Route::get("prices",function(){
+    return view("prices");
+});
 Route::post('/contact', [ContactController::class, 'sendEmail'])->name('contact.send');

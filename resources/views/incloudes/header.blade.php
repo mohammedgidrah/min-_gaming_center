@@ -28,6 +28,7 @@
                     <li><a href={{url('arcadegames')}}>Arcade games </a></li>
                     <li><a href={{url('equipment')}}>Equipment</a></li>
                     <li><a href={{ url('viprooms') }}>VIP Room </a></li>
+                    <li><a href={{ url('prices') }}>Prices </a></li>
                   </ul>
                 </li>
                 <li class="menu-item has-children">
@@ -76,6 +77,7 @@
                   <li><a href={{url('arcadegames')}}>Arcade games </a></li>
                   <li><a href={{url('equipment')}}>Equipment </a></li>
                   <li><a href={{ url('viprooms') }}>VIP Room </a></li>
+                  <li><a href={{ url('prices') }}>Prices </a></li>
                 </ul>
               </li>
               <li class="has-children">
